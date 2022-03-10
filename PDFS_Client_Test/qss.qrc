@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/qss/MyLoginCloseButton.qss</file>
+        <file>resources/qss/MyLoginPushButton.qss</file>
+    </qresource>
+</RCC>

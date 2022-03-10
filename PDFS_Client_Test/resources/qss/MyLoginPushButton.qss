@@ -1,0 +1,29 @@
+QPushButton {
+    border: 0px solid #999999;
+    border-radius: 4px;
+    padding: 1px 4px;
+    min-width: 50px;
+    min-height: 24px;
+    background-color: QLinearGradient( x1: 0, y1: 0, x2: 1, y2: 1,
+                stop: 0 #98E1EF,
+                stop: 0.1 #C85CB8DF,
+                stop: 0.5 #C85CB8DF,
+                stop: 0.9 #98E1EF,
+                stop: 1 #98E1EF);
+}
+
+QPushButton:hover{
+    background-color: #99D0FF;
+    border-color: #CBD9FF;
+}
+
+QPushButton:pressed
+{
+    border-width: 1px;
+    background-color: #CBD9FF;
+    border-color: #999999;
+}
+
+QPushButton:focus, QPushButton:default {
+    border-color: #EA2; /* make the default button prominent */
+}
